@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Localization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Language Localization Demo</h1>
+        <label for="language-select">Select Language:</label>
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="hi">Hindi</option>
+            <option value="or">Odia</option>
+            <option value="bn">Bengali</option>
+        </select>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2 data-i18n="hero.title">Welcome to our Website!</h2>
+            <p data-i18n="hero.description">This is a demonstration of language localization using JavaScript.</p>
+            <button data-i18n="hero.button">Learn More</button>
+        </section>
+
+        <section id="about">
+            <h2 data-i18n="about.title">About Us</h2>
+            <p data-i18n="about.content">We provide amazing services to our customers worldwide.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">&copy; 2023 My Company</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
